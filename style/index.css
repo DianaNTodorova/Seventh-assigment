@@ -1,0 +1,25 @@
+body {
+  background-color: #9dbebb;
+}
+.all_elements {
+  display: flex;
+  position: relative;
+  margin: auto;
+  margin-top: 153px;
+  justify-content: center;
+}
+
+.red_box {
+  display: flex;
+  max-width: 954px;
+  width: 100%;
+  min-height: 594px;
+  position: absolute;
+  background: linear-gradient(to right, #be0909 64%, #ffb039 36%);
+}
+.image_box {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  transform: translate(350px, -150px);
+}
