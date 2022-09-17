@@ -26,10 +26,11 @@ body {
 .box_form {
   display: flex;
   position: absolute;
+  justify-content: flex-start
   max-width: 954px;
+  width: 100%;
   margin-left: 65px;
   margin-top: 65px;
-  justify-content: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -45,7 +46,26 @@ body {
 }
 .box_form input {
   height: 51px;
+  margin-bottom: 21px;
+  background-color: #be0909;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #9dbebb;
 }
+::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.3em;
+  color: #feffff;
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+
 .box_button {
   max-width: 202px;
   width: 100%;
@@ -66,4 +86,6 @@ body {
   color: #ffffff;
   cursor: pointer;
   border: none;
+  margin-top: 35px;
+  margin-left: 100px;
 }
