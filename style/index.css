@@ -21,5 +21,10 @@ body {
   display: flex;
   position: absolute;
   z-index: 1;
-  transform: translate(350px, -150px);
+  transform: translate(350px, 50px);
+}
+.box_form {
+  display: flex;
+  position: absolute;
+  justify-content: center;
 }
