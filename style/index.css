@@ -26,5 +26,44 @@ body {
 .box_form {
   display: flex;
   position: absolute;
+  max-width: 954px;
+  margin-left: 65px;
+  margin-top: 65px;
   justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fcffff;
+}
+.box_form label {
+  display: flex;
+  height: 21px;
+}
+.box_form input {
+  height: 51px;
+}
+.box_button {
+  max-width: 202px;
+  width: 100%;
+  min-height: 48px;
+  position: absolute;
+  border-radius: 24px;
+  background: #468189;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
 }
