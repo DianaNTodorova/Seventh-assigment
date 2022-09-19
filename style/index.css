@@ -21,7 +21,7 @@ body {
   display: flex;
   position: absolute;
   z-index: 1;
-  transform: translate(350px, 50px);
+  transform: translate(50%, 8%);
 }
 .box_form {
   display: flex;
