@@ -5,7 +5,7 @@ body {
   display: flex;
   position: relative;
   margin: auto;
-  margin-top: 153px;
+  margin-top: 100px;
   justify-content: center;
 }
 
@@ -26,10 +26,10 @@ body {
 .box_form {
   display: flex;
   position: absolute;
-  justify-content: flex-start
+  justify-content: flex-start;
   max-width: 954px;
   width: 100%;
-  margin-left: 65px;
+  margin-left: 50px;
   margin-top: 65px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -53,6 +53,9 @@ body {
   border-right: 0px;
   border-bottom: 1px solid #9dbebb;
 }
+.box_form input:hover {
+  filter: brightness(110%);
+}
 ::placeholder {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -65,14 +68,16 @@ body {
   padding-top: 25px;
   padding-left: 5px;
 }
-.larger_box{
+.larger_box {
   width: 400px;
 }
 .box_button {
   max-width: 202px;
   width: 100%;
   min-height: 48px;
-  position: absolute;
+  position: relative;
+  margin-top: 35px;
+  margin-left: 50px;
   border-radius: 24px;
   background: #468189;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
@@ -88,6 +93,10 @@ body {
   color: #ffffff;
   cursor: pointer;
   border: none;
-  margin-top: 35px;
-  margin-left: 100px;
+}
+.box_button:hover {
+  color: #468189;
+  background: #ffffff;
+  transform: scale(1.1);
+  transition: all 200ms ease;
 }
